@@ -1,0 +1,22 @@
+{
+  "name": "ts_challenges",
+  "version": "0.0.1",
+  "description": "practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poivre-hxx/ts_challenges.git"
+  },
+  "author": "p",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Poivre-hxx/ts_challenges/issues"
+  },
+  "homepage": "https://github.com/Poivre-hxx/ts_challenges#readme",
+  "dependencies": {
+    "typescript": "^4.6.3"
+  }
+}
