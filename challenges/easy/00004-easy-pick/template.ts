@@ -3,16 +3,16 @@ type MyPick<T, K extends keyof T> = {
 };
 
 // js
-function MyPick(todo, keys) {
-  const obj = {};
-  keys.forEach((key) => {
-    console.log(key);
-    if (key in todo) obj[key] = todo[key];
-  });
+// function MyPick(todo, keys) {
+//   const obj = {};
+//   keys.forEach((key) => {
+//     if (key in todo) obj[key] = todo[key];
+//   });
 
-  return obj;
-}
+//   return obj;
+// }
 // foreach => mapped
 // todo[key] => indexed
 // keyof => lookup
 // extends => Generic Constraints
+
