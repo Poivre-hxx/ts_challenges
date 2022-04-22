@@ -20,4 +20,4 @@ type cases = [
 type error = TupleToObject<[[1, 2], {}]>;
 
 // (const let)js世界 =>(typeof) (type interface)type 世界
-// 字面量类型
+// 字面量类型 https://jkchao.github.io/typescript-book-chinese/typings/literals.html
