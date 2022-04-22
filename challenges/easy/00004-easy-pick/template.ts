@@ -1,6 +1,7 @@
 type MyPick<T, K extends keyof T> = {
-  [U in K]: T[U]; //[a in b] 遍历
+  [U in K]: T[U]; //[a in b] 遍历  
 };
+// 遍历对象
 
 // js
 // function MyPick(todo, keys) {

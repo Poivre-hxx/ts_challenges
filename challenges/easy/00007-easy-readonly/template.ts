@@ -1,5 +1,5 @@
 type MyReadonly<T> = {
-    readonly [P in keyof T]: T[P] // 遍历接口 keyof
+    readonly [P in keyof T]: T[P]; // 遍历接口 keyof
 }
 
 
