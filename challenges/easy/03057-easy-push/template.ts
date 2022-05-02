@@ -5,6 +5,7 @@ function Push(T, U)
 {
     //const obj = [];
     let i = T.length;
-    T[i + 1] = U;
+    T[i] = U.value;
     return T;
 }
+let t1 = Push([1, 2], [3]);
