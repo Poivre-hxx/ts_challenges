@@ -1,4 +1,4 @@
-import { Equal } from '@type-challenges/utils'
+import type{ Equal } from '@type-challenges/utils'
 
 // type Includes<T extends any[], K> = T["length"] extends 0
 // ? false  
@@ -9,6 +9,8 @@ import { Equal } from '@type-challenges/utils'
 type Includes<T extends any[], K> = T extends [infer X, ...infer Y]
 ? Equal<X, K> extends true ? true : Includes<Y, K>
 : false; 
+
+export {Includes} 
 
 type q1 = Includes<["Kars", "Esidisi", "Wamuu", "Santana"], "Kars">;
 type q2 = Includes<['Kars', 'Esidisi', 'Wamuu', 'Santana'], 'Dio'>;
@@ -25,3 +27,4 @@ type q4 = Includes<[1 | 2], 1>;
 //     return false;
 // }
 // let t = Includes(["Kars", "Esidisi", "Wamuu", "Santana"], "Kars");
+
