@@ -1,5 +1,8 @@
 type MyExclude<T, U> = T extends U ? never : T;
 
+type a = Exclude<'a' | 'b' | 'c', 'a'>;
+
+
 // js
 function MyExclude(T, U) {
   const obj = [];
