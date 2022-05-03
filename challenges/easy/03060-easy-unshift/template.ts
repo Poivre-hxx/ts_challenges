@@ -8,3 +8,4 @@ function Unshift(T, U){
     for(let j = 1; j <= i; j++) obj[j] = T[j-1];
     return obj;
 }
+let t1 = Unshift([1, 2],'3');
