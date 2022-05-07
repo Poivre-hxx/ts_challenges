@@ -23,4 +23,3 @@ interface Expected {
   readonly description?: string
   completed: boolean
 }
-© 2022 GitHub, Inc.

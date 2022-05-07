@@ -28,3 +28,7 @@ function Concat1(arr1, arr2) {
 
 // 解构
 // ...运算符
+
+
+type first<T extends unknown[]> = T extends [infer P, ...infer rest] ? P : never;
+type tail<T extends unknown[]> = T extends [...infer rest, infer P] ? P : never;
