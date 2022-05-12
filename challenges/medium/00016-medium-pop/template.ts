@@ -6,6 +6,6 @@ function Pop(arr)
     let obj;
     let Rest;
     arr = [...obj, Rest];
-    return obj;
+    return obj; 
 
 }
