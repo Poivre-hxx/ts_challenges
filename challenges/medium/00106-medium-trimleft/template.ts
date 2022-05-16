@@ -14,6 +14,8 @@ let t2 = " 2323";
 alert(t2[2]);
 t2.trim();
 
+
+// js
 function TrimLeft(str: string) {
   let obj = {};
   for (let i = 0; i < str.length; i++) {
