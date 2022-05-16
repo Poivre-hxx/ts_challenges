@@ -8,3 +8,5 @@ function MyCapitalize(str) {
     str[0].toUpperCase();
     return str;
 }
+
+// `${}`  ES6 的字符串语法
