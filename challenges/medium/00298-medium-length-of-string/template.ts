@@ -9,3 +9,6 @@ function LengthOfString(str) {
     return str.length;
 }
 let a = LengthOfString('123');
+
+// 字符串 => 数组
+// Get 数组的长度
