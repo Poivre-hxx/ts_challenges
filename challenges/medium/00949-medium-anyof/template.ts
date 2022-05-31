@@ -5,5 +5,4 @@ type AnyOf<T extends readonly any[]> = T extends [infer F, ...infer R]
   : false;
 type t1 = AnyOf<[1, "", false, [], {}]>;
 
-// Record 类型 => 解构对象\
-//
+// Record 类型 => 解构对象
